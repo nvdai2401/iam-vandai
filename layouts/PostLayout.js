@@ -35,7 +35,6 @@ export default function PostLayout({
 }) {
   const { slug, fileName, date, title, tags, readingTime } = frontMatter
 
-  console.log('authorDetails', authorDetails)
   return (
     <SectionContainer>
       <BlogSEO
