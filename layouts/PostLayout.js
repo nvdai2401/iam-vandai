@@ -19,9 +19,9 @@ const facebookShare = (slug) =>
   )}`
 
 const postDateTemplate = {
-  weekday: 'long',
+  // weekday: 'long',
   year: 'numeric',
-  month: 'long',
+  month: 'short',
   day: 'numeric',
 }
 
@@ -49,7 +49,7 @@ export default function PostLayout({
         <div className="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700">
           <header className="relative pt-6 xl:pb-6">
             <div className="space-y-1 text-center">
-              <dl className="space-y-10">
+              {/* <dl className="space-y-10">
                 <div>
                   <dt className="sr-only">Published on</dt>
                   <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
@@ -61,12 +61,12 @@ export default function PostLayout({
                     </time>
                   </dd>
                 </div>
-              </dl>
+              </dl> */}
               <div>
                 <PageTitle>{title}</PageTitle>
               </div>
               <div className="flex justify-center gap-5">
-                <span className="flex items-center gap-1">
+                {/* <span className="flex items-center gap-1">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-5 h-5"
@@ -82,6 +82,29 @@ export default function PostLayout({
                     />
                   </svg>
                   {readingTime.words} words
+                </span> */}
+                <span className="flex items-center gap-1">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-5 h-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+
+                  <time dateTime={date}>
+                    {new Date(date).toLocaleDateString(
+                      siteMetadata.locale,
+                      postDateTemplate
+                    )}
+                  </time>
                 </span>
                 <span className="flex items-center gap-1">
                   <svg
@@ -107,7 +130,7 @@ export default function PostLayout({
             className="pb-8 divide-y divide-gray-200 xl:divide-y-0 dark:divide-gray-700 xl:grid xl:grid-cols-4 xl:gap-x-6"
             style={{ gridTemplateRows: 'auto 1fr' }}
           >
-            <dl className="pt-6 pb-10 xl:pt-11 xl:border-b xl:border-gray-200 xl:dark:border-gray-700">
+            <dl className="py-6 md:pb-10 xl:pt-11 xl:border-b xl:border-gray-200 xl:dark:border-gray-700">
               <dt className="sr-only">Authors</dt>
               <dd>
                 <ul className="flex justify-center space-x-8 xl:block sm:space-x-12 xl:space-x-0 xl:space-y-8">
@@ -151,7 +174,7 @@ export default function PostLayout({
               </dd>
             </dl>
             <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:pb-0 xl:col-span-3 xl:row-span-2">
-              <div className="pt-10 pb-8 prose dark:prose-dark max-w-none">
+              <div className="pt-6 md:pt-10 pb-8 prose dark:prose-dark max-w-none">
                 {children}
               </div>
 

@@ -55,7 +55,7 @@ const TOCInline = ({
   return (
     <>
       {asDisclosure ? (
-        <details className="xl:hidden mb-4">
+        <details className="xl:hidden mb-6">
           <summary className="pt-2 pb-2 ml-6 text-xl font-bold">
             Table of Contents
           </summary>
