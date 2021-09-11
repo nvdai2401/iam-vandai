@@ -7,9 +7,19 @@
       <language>en-us</language>
       <managingEditor>nvdai2401@gmail.com (Van Dai (Michael))</managingEditor>
       <webMaster>nvdai2401@gmail.com (Van Dai (Michael))</webMaster>
-      <lastBuildDate>Tue, 12 Jan 2021 00:00:00 GMT</lastBuildDate>
+      <lastBuildDate>Sun, 29 Aug 2021 00:00:00 GMT</lastBuildDate>
       <atom:link href="https://iamvandai.com/feed.xml" rel="self" type="application/rss+xml"/>
       
+  <item>
+    <guid>https://iamvandai.com/blog/creating-a-rehype-syntax-highlighting-plugin</guid>
+    <title>Creating a Rehype Syntax Highlighting Plugin</title>
+    <link>https://iamvandai.com/blog/creating-a-rehype-syntax-highlighting-plugin</link>
+    <description>An exploration of markdown and HTML syntax trees. Documenting my experience creating rehype-prism-plus, a syntax highlighting plugin that creates pretty code blocks.</description>
+    <pubDate>Sun, 29 Aug 2021 00:00:00 GMT</pubDate>
+    <author>nvdai2401@gmail.com (Van Dai (Michael))</author>
+    <category>mdx</category><category>javascript</category><category>markdown</category><category>notes</category>
+  </item>
+
   <item>
     <guid>https://iamvandai.com/blog/introducing-tailwind-nextjs-starter-blog</guid>
     <title>Introducing Tailwind Nextjs Starter Blog</title>
