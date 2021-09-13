@@ -10,14 +10,14 @@ import ThemeSwitch from './ThemeSwitch'
 const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
-      <div className="flex flex-col justify-between h-screen">
-        <header className="flex items-center justify-between py-10">
+      <div className="flex flex-col justify-between h-screen w-screen md:w-full px-4 md:p-0">
+        <header className="flex items-center justify-between py-5 md:py-10">
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
-                <div className="mr-3">{/* <Logo /> */}</div>
+                {/* <div className="mr-3"><Logo /></div> */}
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="hidden h-6 text-2xl font-semibold sm:block">
+                  <div className="h-6 text-2xl font-semibold">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
