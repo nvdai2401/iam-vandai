@@ -17,7 +17,7 @@ const LayoutWrapper = ({ children }) => {
               <div className="flex items-center justify-between">
                 {/* <div className="mr-3"><Logo /></div> */}
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="h-6 text-2xl font-semibold">
+                  <div className="flex items-center h-6 text-2xl font-semibold">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
