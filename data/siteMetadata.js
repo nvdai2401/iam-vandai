@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
+  title: 'iamvandai.com - Personal blog to share my journey.',
   author: 'Van Dai (Michael)',
   headerTitle: '@iamvandai',
   description: 'Personal blog to share my journey.',
@@ -8,7 +8,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/nvdai2401/iam-vandai',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/twitter-card.jpeg',
   email: 'nvdai2401@gmail.com',
   github: 'https://github.com/nvdai2401',
   twitter: 'https://twitter.com/iamvandai',
