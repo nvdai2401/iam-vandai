@@ -1,19 +1,16 @@
 const projectsData = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'HiHa Store',
+    description: `HiHa Store is a reliable, scalable and maintainable front-end application.
+    Read the application architecture to explore awesome things that makes the application reliable, scalable and maintainable.`,
+    imgSrc: '/static/images/hiha-store.png',
+    href: 'https://github.com/nvdai2401/hiha-store-ts',
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten handphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Padlet Map',
+    description: `This is a map of countries I would like to visit.`,
+    imgSrc: '/static/images/padlet-map.png',
+    href: 'https://github.com/nvdai2401/padlet-map',
   },
 ]
 
